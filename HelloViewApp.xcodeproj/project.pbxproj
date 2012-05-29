@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4976C76915748F1700786536 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4976C76815748F1700786536 /* UIKit.framework */; };
+		4976C76B15748F1700786536 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4976C76A15748F1700786536 /* Foundation.framework */; };
+		4976C76D15748F1700786536 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4976C76C15748F1700786536 /* CoreGraphics.framework */; };
+		4976C77315748F1700786536 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4976C77115748F1700786536 /* InfoPlist.strings */; };
+		4976C77515748F1700786536 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4976C77415748F1700786536 /* main.m */; };
+		4976C77915748F1700786536 /* ZKFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4976C77815748F1700786536 /* ZKFAppDelegate.m */; };
+		4976C77C15748F1700786536 /* ZKFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4976C77B15748F1700786536 /* ZKFViewController.m */; };
+		4976C77F15748F1700786536 /* ZKFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4976C77D15748F1700786536 /* ZKFViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4976C76415748F1700786536 /* HelloViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4976C76815748F1700786536 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4976C76A15748F1700786536 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4976C76C15748F1700786536 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4976C77015748F1700786536 /* HelloViewApp-Info.plist */ = {isa = PBXFileReference; path = "HelloViewApp-Info.plist"; sourceTree = "<group>"; };
+		4976C77215748F1700786536 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4976C77415748F1700786536 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4976C77615748F1700786536 /* HelloViewApp-Prefix.pch */ = {isa = PBXFileReference; path = "HelloViewApp-Prefix.pch"; sourceTree = "<group>"; };
+		4976C77715748F1700786536 /* ZKFAppDelegate.h */ = {isa = PBXFileReference; path = ZKFAppDelegate.h; sourceTree = "<group>"; };
+		4976C77815748F1700786536 /* ZKFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKFAppDelegate.m; sourceTree = "<group>"; };
+		4976C77A15748F1700786536 /* ZKFViewController.h */ = {isa = PBXFileReference; path = ZKFViewController.h; sourceTree = "<group>"; };
+		4976C77B15748F1700786536 /* ZKFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKFViewController.m; sourceTree = "<group>"; };
+		4976C77E15748F1700786536 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZKFViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4976C76115748F1700786536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4976C76915748F1700786536 /* UIKit.framework in Frameworks */,
+				4976C76B15748F1700786536 /* Foundation.framework in Frameworks */,
+				4976C76D15748F1700786536 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4976C75915748F1700786536 = {
+			isa = PBXGroup;
+			children = (
+				4976C76E15748F1700786536 /* HelloViewApp */,
+				4976C76715748F1700786536 /* Frameworks */,
+				4976C76515748F1700786536 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4976C76515748F1700786536 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4976C76415748F1700786536 /* HelloViewApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4976C76715748F1700786536 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4976C76815748F1700786536 /* UIKit.framework */,
+				4976C76A15748F1700786536 /* Foundation.framework */,
+				4976C76C15748F1700786536 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4976C76E15748F1700786536 /* HelloViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				4976C77715748F1700786536 /* ZKFAppDelegate.h */,
+				4976C77815748F1700786536 /* ZKFAppDelegate.m */,
+				4976C77A15748F1700786536 /* ZKFViewController.h */,
+				4976C77B15748F1700786536 /* ZKFViewController.m */,
+				4976C77D15748F1700786536 /* ZKFViewController.xib */,
+				4976C76F15748F1700786536 /* Supporting Files */,
+			);
+			path = HelloViewApp;
+			sourceTree = "<group>";
+		};
+		4976C76F15748F1700786536 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4976C77015748F1700786536 /* HelloViewApp-Info.plist */,
+				4976C77115748F1700786536 /* InfoPlist.strings */,
+				4976C77415748F1700786536 /* main.m */,
+				4976C77615748F1700786536 /* HelloViewApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4976C76315748F1700786536 /* HelloViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4976C78215748F1700786536 /* Build configuration list for PBXNativeTarget "HelloViewApp" */;
+			buildPhases = (
+				4976C76015748F1700786536 /* Sources */,
+				4976C76115748F1700786536 /* Frameworks */,
+				4976C76215748F1700786536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloViewApp;
+			productName = HelloViewApp;
+			productReference = 4976C76415748F1700786536 /* HelloViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4976C75B15748F1700786536 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZKF;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4976C75E15748F1700786536 /* Build configuration list for PBXProject "HelloViewApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4976C75915748F1700786536;
+			productRefGroup = 4976C76515748F1700786536 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4976C76315748F1700786536 /* HelloViewApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4976C76215748F1700786536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4976C77315748F1700786536 /* InfoPlist.strings in Resources */,
+				4976C77F15748F1700786536 /* ZKFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4976C76015748F1700786536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4976C77515748F1700786536 /* main.m in Sources */,
+				4976C77915748F1700786536 /* ZKFAppDelegate.m in Sources */,
+				4976C77C15748F1700786536 /* ZKFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4976C77115748F1700786536 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4976C77215748F1700786536 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4976C77D15748F1700786536 /* ZKFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4976C77E15748F1700786536 /* en */,
+			);
+			name = ZKFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4976C78015748F1700786536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4976C78115748F1700786536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4976C78315748F1700786536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloViewApp/HelloViewApp-Prefix.pch";
+				INFOPLIST_FILE = "HelloViewApp/HelloViewApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4976C78415748F1700786536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloViewApp/HelloViewApp-Prefix.pch";
+				INFOPLIST_FILE = "HelloViewApp/HelloViewApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4976C75E15748F1700786536 /* Build configuration list for PBXProject "HelloViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4976C78015748F1700786536 /* Debug */,
+				4976C78115748F1700786536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4976C78215748F1700786536 /* Build configuration list for PBXNativeTarget "HelloViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4976C78315748F1700786536 /* Debug */,
+				4976C78415748F1700786536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4976C75B15748F1700786536 /* Project object */;
+}
