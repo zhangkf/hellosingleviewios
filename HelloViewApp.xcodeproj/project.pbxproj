@@ -22,13 +22,13 @@
 		4976C76815748F1700786536 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4976C76A15748F1700786536 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4976C76C15748F1700786536 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4976C77015748F1700786536 /* HelloViewApp-Info.plist */ = {isa = PBXFileReference; path = "HelloViewApp-Info.plist"; sourceTree = "<group>"; };
+		4976C77015748F1700786536 /* HelloViewApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloViewApp-Info.plist"; sourceTree = "<group>"; };
 		4976C77215748F1700786536 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4976C77415748F1700786536 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4976C77615748F1700786536 /* HelloViewApp-Prefix.pch */ = {isa = PBXFileReference; path = "HelloViewApp-Prefix.pch"; sourceTree = "<group>"; };
-		4976C77715748F1700786536 /* ZKFAppDelegate.h */ = {isa = PBXFileReference; path = ZKFAppDelegate.h; sourceTree = "<group>"; };
+		4976C77615748F1700786536 /* HelloViewApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloViewApp-Prefix.pch"; sourceTree = "<group>"; };
+		4976C77715748F1700786536 /* ZKFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKFAppDelegate.h; sourceTree = "<group>"; };
 		4976C77815748F1700786536 /* ZKFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKFAppDelegate.m; sourceTree = "<group>"; };
-		4976C77A15748F1700786536 /* ZKFViewController.h */ = {isa = PBXFileReference; path = ZKFViewController.h; sourceTree = "<group>"; };
+		4976C77A15748F1700786536 /* ZKFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKFViewController.h; sourceTree = "<group>"; };
 		4976C77B15748F1700786536 /* ZKFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKFViewController.m; sourceTree = "<group>"; };
 		4976C77E15748F1700786536 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZKFViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */

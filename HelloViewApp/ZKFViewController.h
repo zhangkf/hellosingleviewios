@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ZKFViewController : UIViewController
+{
+    UILabel *label;
+    
+}
+
+ @property(nonatomic, retain) IBOutlet UILabel *label;
+
+-(IBAction)clickButton; 
 
 @end

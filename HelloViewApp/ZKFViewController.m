@@ -14,6 +14,12 @@
 
 @implementation ZKFViewController
 
+@synthesize label;
+
+-(void)clickButton{
+    label.text = @"You changed me!";
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -29,6 +35,12 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (void)dealloc
+{
+    [self->label release];
+    [super dealloc];
 }
 
 @end
